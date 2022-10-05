@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+
+body{
+   /* background-image: url('assets/bookBackDark.jpg'); */
+   background-image: url('assets/dinner3.avif');
+    background-size: cover;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:large;
+    
+    padding-left: 25%;
+    padding-right: 25%;
+    display: inline-flex;
+    text-align: center;
+
+}
+#printAmt{
+    font-family: 'Open Sans', sans-serif;
+    transition: all .25s ease-out;
+    color:#eee;
+    opacity: 1;
+    font-size: 200%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+#calc{
+    text-align: center;
+    padding-top: 2%;
+}
+#maintitle{
+    font-size:xx-large;
+}
+header {
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#HomeButton a{
+    color:burlywood;
+    text-decoration: none;
+    opacity: .8;
+    display: flex;
+    transition: all .25s ease-out;
+    flex: 1;
+  }
+#HomeButton a:hover{
+    opacity: 1;
+    font-size: 105%;
+}
+#organize{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+#signUp a{
+    color: burlywood;
+    text-decoration: none;
+    opacity: .4;
+    display: inline-flex;
+    transition: all .25s ease-out;
+    flex: 1;
+}
+#signUp a:hover{
+    opacity: 1;
+    
+    
+}
+#customTip{
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(249, 209, 157);
+}
+.slider {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 25%;
+    height: 1%; /* Specified height */
+    outline: none; /* Remove outline */
+    opacity: 0.5; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  .slider:hover {
+    cursor: pointer;
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+#totalAmt{
+    background: none;
+    color: blanchedalmond;
+    border: 0;
+    outline: none;
+    border-bottom:1px solid #eee;
+    padding: .5%;
+    margin: 2%;
+    
+}
+#input{
+    font-family: 'Open Sans', sans-serif;
+   
+    color:burlywood;
+    
+    opacity: 1;
+    font-size: 300%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.tipping{
+    padding-bottom: .5%;
+}
+.tipping button{
+    align-self: center;
+    color:midnightblue;
+    background-color:burlywood;
+    border-radius: 10px;
+    opacity: 0.6;
+    padding: 5%;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size:xx-large;
+}
+.tipping button:hover{
+    opacity: .8;
+    transition: all .25s ease-out;
+}
+#roundUp{
+    cursor: pointer;
+
+}
+#roundUp input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+#roundUpT{
+    font-family: 'Open Sans', sans-serif;
+    color:burlywood;
+}
+
+
+
+

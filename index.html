@@ -1,0 +1,71 @@
+b<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content = "width=device-width, intial-scale=1.0">
+    <title>Test website</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+     <header>
+
+    <div id="organize">
+        <nav id="HomeButton">
+            <h1 id="maintitle"><a href="home.html">EzTip</a></h1>
+            
+        </nav>
+
+        <nav id="signUp">
+            <h1><a href="https://www.wanderlustingk.com/travel-blog/tipping-in-the-usa#:~:text=Tipping%20at%20restaurants%20in%20the%20United%20States&text=15%25%20is%20standard%2C%20but%2018,your%20tip%20would%20be%20%247." target="_blank" >Tipping Help</a></h1>
+            
+        </nav>
+    </div>
+    
+    </header>
+
+
+
+    <div id="calc">
+            <h2 id="input">What was your total?</h2>
+            <input type="number" id="totalAmt"></input>
+            <div>
+                <input type="checkbox" id="roundUp" onclick="f4()">
+                <label for="roundUp" id="roundUpT" >Round total</label>
+            </div>
+            <br>
+            <div class="tipping">
+                <button id="p15" onclick="f1()">15%</button>
+                <button id="p18" onclick="f2()">18%</button>
+                <button id="p20" onclick="f3()">20%</button>  
+            </div>
+
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                <h2 id="customTip">Tipping Percent: 0%</h2>
+              </div>
+
+            <h2 id="printAmt">Your total will show here.</h2>
+
+   
+
+
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+  
+</body>
+</html>
+
